@@ -12,6 +12,8 @@ This script is exclusively compatible with the **ESX Framework** and brings a th
 
 ---
 
+---
+
 ## Features  
 - Dealer interaction to trigger the heist.  
 - NPC enemies guarding the oil rig.  
@@ -26,6 +28,8 @@ To use the **Oil Rig Heist** script, ensure the following resources are installe
 - **[OX Inventory](https://github.com/overextended/ox_inventory)**  
 - **[OX Lib](https://github.com/overextended/ox_lib)**  
 - **[ESX Legacy](https://github.com/esx-framework/esx-legacy)**  
+- Any oil rig 
+- **[Oil Rig I Used](https://www.youtube.com/watch?v=GdHiEvWo_IY&ab_channel=RSDEV)**
 
 ---
 
@@ -50,7 +54,13 @@ To use the **Oil Rig Heist** script, ensure the following resources are installe
    - Restart or start your server to load the script.  
 
 ---
+## Things to be considered 
+This Script can be used in any oilrigs you just need to adjust the coords accordingly 
+Things to acknowledge when adjusting it to your oilrig:
+-> You need to create a outline of your oil rig and enter it in the client (Line 221). This is because i have setup the script so that the bot will spawn when you enter the oil so the outline of oil rig is essential
+-> You need to setup the location of where you should be teleported to when you die in the oilrig
 
+---
 ## Configuration  
 Edit the configuration file (`config.lua`) to customize the script to your server's needs:  
 - Dealer locations.  
@@ -65,3 +75,14 @@ If you encounter any issues or have feature requests, feel free to reach out or 
 ---
 
 **Enjoy the thrill of the Oil Rig Heist and make your server unforgettable!**  
+
+
+
+|                                         |                                |
+|-------------------------------------|----------------------------|
+| Code is accessible       | Yes           |
+| Subscription-based      | No                 |
+| Lines (approximately)  | 400 lines approx  |
+| Requirements                | Requirements      |
+| Support                           | Yes/No                 |
+
