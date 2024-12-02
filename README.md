@@ -37,7 +37,7 @@ To use the **Oil Rig Heist** script, ensure the following resources are installe
 2. **Add to Server.cfg**  
    - Add the following line to your `server.cfg`:  
      ```plaintext  
-     ensure oil-rig-heist  
+     ensure botz_oilrigrob 
      ```  
 
 3. **Dependencies**  
